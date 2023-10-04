@@ -708,10 +708,13 @@ span.profession {
 
 @media (max-width:1059px) {
 
-    .selector-body-colors, .aside .aside__nav-toggler, .choose-colors, .mode_dark  {
+    .selector-body-colors, .aside .aside__nav-toggler, .mode_dark  {
         left: 85%;
     }
 
+    .choose-colors {
+        right: 90%;
+    }
     /*HOME*/
     body {
         background-color: var(--bg-black-100);
@@ -752,8 +755,11 @@ span.profession {
         flex-flow: column wrap;
         
     }
-}
 
+    .projects__container .project-item img {
+        height: 300px
+}
+}
 @media (max-width:640px) {
     
     .section__container {
@@ -762,6 +768,10 @@ span.profession {
     
     .padd-15 {
         padding: 0;
+    }
+
+    .projects__container .project-item img {
+        height: fit-content
     }
 
     h3.info__hello {
@@ -798,4 +808,4 @@ span.profession {
         font-weight: 500;
     }
 
-} 
+}
