@@ -572,6 +572,9 @@ span.profession {
     background-color: var(--bg-black-100);
 }
 
+.projects__container .project-item img {
+    height: 400px;
+}
 /* .projects__container .project-item .project-item-overlay {
     display: none;
     width: 80%;
